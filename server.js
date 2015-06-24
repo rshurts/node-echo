@@ -1,4 +1,5 @@
 var http = require('http');
+var chalk = require('chalk');
 
 const PORT = 7331;
 
@@ -9,8 +10,8 @@ function handleRequest(request, response) {
             body += chunk;
         });
         request.on('end', function () {
-            console.log('URL: ' + request.url);
-            console.log('Data: ' + body);
+            console.log(chalk.magenta('URL: ') + request.url);
+            console.log(chalk.magenta('Data: ') + body);
             response.writeHead(200, { 'Content-Type': 'text/plain' });
             response.end('URL: ' + request.url + 'Data: ' + body);
         });

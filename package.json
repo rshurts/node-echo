@@ -1,0 +1,8 @@
+{
+  "name": "node-post-echo",
+  "version": "0.0.1",
+  "description": "Simple node server that echos the data of a POST to the console.",
+  "dependencies": {
+    "chalk": "^1.0.0"
+  }
+}
