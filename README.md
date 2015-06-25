@@ -1,3 +1,3 @@
-# node-post-echo
+# node-echo
 
-Simple node server that echos the data of a POST to the console.
+Simple node server that echo requests to the console.
