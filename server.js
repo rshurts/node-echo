@@ -10,6 +10,7 @@ function handleRequest(request, response) {
             body += chunk;
         });
         request.on('end', function () {
+            console.log(chalk.magenta('Time   : ') + new Date());
             console.log(chalk.magenta('Path   : ') + request.url);
             console.log(chalk.magenta('Method : ') + request.method);
             console.log(chalk.magenta('Data   : ') + body);

@@ -1,7 +1,9 @@
 {
   "name": "node-post-echo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple node server that echos the data of a POST to the console.",
+  "license" : "MIT",
+  "repository" : "rshurts/node-echo",
   "dependencies": {
     "chalk": "^1.0.0"
   }
