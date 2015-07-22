@@ -1,5 +1,3 @@
-"use strict";
-
 var http = require('http');
 var chalk = require('chalk');
 
